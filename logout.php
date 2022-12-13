@@ -1,0 +1,58 @@
+<?php
+    session_start();
+    session_unset();
+    session_destroy();
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="img/lifestyleStore.png" />
+        <title>Lifestyle Store</title>
+        
+        <link rel="stylesheet" href="CSS/col_css.css" type="text/css">
+		<link rel="stylesheet" href="CSS/btn.css" type="text/css">
+		<link rel="stylesheet" href="CSS/panel.css" type="text/css">
+		<link rel="stylesheet" href="CSS/label.css" type="text/css">
+		<link rel="stylesheet" href="CSS/Navbar.css" type="text/css">
+        <link rel="stylesheet" href="CSS/css1.css" type="text/css">
+		
+    </head>
+    <body>
+        <div>
+            <?php
+                require 'header.php';
+            ?>
+            
+<style>
+body {
+  background-image: url('img/bg2.jfif');
+  background-repeat:no-repeat;
+  padding-top:5px;
+  padding-bottom:50px;
+  margin-bottom: ;
+  text-align:center;
+  color:#f8f8f8; 
+  background-size:cover;
+}
+</style>
+<br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading"></div>
+                            <div class="panel-body">
+                                <p><font color="#FF7A59">You have been logged out. <a href="login.php">Login again.</a></font></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+               <div class="container">
+               
+               </div>
+           </footer>
+        </div>
+    </body>
+</html>
