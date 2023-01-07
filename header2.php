@@ -10,7 +10,7 @@
 					   
                    </div>
 					<div class="form-group">
-						<input type="text" name="search"></td>
+						<input type="text" name="search"></input>
 						<li><a href="search.php"><span class="glyphicon glyphicon-search-items"></span> Search</a></li>
 					</div>
 						
